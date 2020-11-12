@@ -1,0 +1,22 @@
+CREATE TABLE users (
+	id INT NOT NULL,
+    username VARCHAR(255),
+    password CHAR(60),
+    PRIMARY KEY(id)
+)
+
+INSERT INTO users(id, username, password)
+VALUES ('1684581', 'Jip', 'Jippie765'),
+('2752946', 'Janneke', 'Janneke42')
+
+OPDRACHT 1:
+Structured Query Language. Het is een taal die gebruikt wordt om databases te beheren
+
+OPDRACHT 3:
+Alle data uit het tabel wordt geprint
+
+OPDRACHT 4:
+SQL Injection
+
+OPDRACHT 5:
+Door de input te controleren op bijvoorbeeld speciale symbolen als er alleen cijfers ingevoerd mogen worden. 
